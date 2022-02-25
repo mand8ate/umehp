@@ -19,11 +19,19 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i,
-        use: ["style-loader", "css-loader", "postcss-loader"],
+        use: [
+          { loader: "style-loader" },
+          { loader: "css-loader" },
+          { loader: "postcss-loader" },
+        ],
       },
       {
-        test: /\.(jpe|jpg|woff|woff2|eot|ttf|svg)$/i,
+        test: /\.(jpe|jpg|woff|woff2|eot|ttf|svg|png)$/i,
         type: "asset/resource",
+      },
+      {
+        test: /\.(jpe|jpg|woff|woff2|eot|ttf|svg|png)$/i,
+        type: "asset/inline",
       },
     ],
   },
