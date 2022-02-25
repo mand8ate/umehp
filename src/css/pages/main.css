@@ -1,0 +1,158 @@
+/* Custom CSS */
+
+/* Base */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white);
+  font-family: "Maiandra", serif;
+  color: var(--black);
+}
+
+/* Header */
+.header {
+  height: 100vh;
+}
+
+.header__background {
+  background: url("./img/bg-photo-1.png");
+}
+
+/* Footer */
+.footer {
+  background-color: var(--dark-grey);
+}
+
+.img-icon-2 {
+  height: 100px;
+  width: 100px;
+  background: url("./img/icons/ume_icon_wh_1.png");
+}
+
+/* Headlines */
+h1 {
+  font-family: "Maiandra";
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: "Maitree";
+  font-size: 3rem;
+}
+
+/* Icons */
+i {
+  font-size: 2.5rem;
+}
+
+.fa-nft::before {
+  content: url("./img/social/nft_icon_wh_1.png");
+}
+
+/* Links */
+a {
+}
+
+.footer-info {
+  font-family: "Maitree";
+  font-size: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+  color: var(--light-grey);
+  margin: 0 5px 0 1rem;
+}
+
+/* Button */
+.btn {
+  font-family: "Maitree";
+  font-size: 2.25rem;
+  border-color: var(--yellow);
+  color: var(--yellow);
+}
+
+/* News */
+.news__content {
+  height: 33rem;
+}
+
+.news__img_1 {
+  height: 33rem;
+  background: url("./img/news/news_1.png");
+}
+
+.news__img_2 {
+  height: 33rem;
+  background: url("./img/news/news_2.png");
+}
+
+.news__img_3 {
+  height: 33rem;
+  background: url("./img/news/news_3.png");
+}
+
+.right-sided {
+  margin-left: 5rem;
+}
+
+.left-sided {
+  margin-right: 5rem;
+}
+
+.news__content__date {
+  color: var(--light-grey);
+}
+
+.news__content__text {
+  font-size: 1.875rem;
+}
+
+.news__content__more {
+  font-family: "Maitree";
+}
+
+.music_note {
+  background: url("./img/icons/note.png");
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .header {
+    height: 80vh;
+  }
+
+  .img-icon-2 {
+    height: 80px;
+    width: 80px;
+  }
+
+  i {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 769px) {
+  .header {
+    height: 70vh;
+  }
+
+  .img-icon-2 {
+    height: 70px;
+    width: 70px;
+  }
+
+  i {
+    font-size: 1.5rem;
+  }
+}
+
+/* @media (max-width: 640px) {
+  
+} */

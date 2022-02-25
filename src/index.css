@@ -1,0 +1,7 @@
+@import "css/config/colors.css";
+@import "css/config/fonts.css";
+@import "css/pages/main.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
