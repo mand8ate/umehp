@@ -1,8 +1,9 @@
 @import "css/config/colors.css";
 @import "css/config/fonts.css";
-@import "css/pages/main.css";
 @import "css/components/divider.css";
 @import "css/components/sections.css";
+
+@import "css/pages/main.css";
 
 @tailwind base;
 @tailwind components;
