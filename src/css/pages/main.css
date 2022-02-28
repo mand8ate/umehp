@@ -53,6 +53,16 @@ i {
   content: url("./img/social/nft_icon_wh_1.png");
 }
 
+.insta i {
+  font-size: 5rem;
+  color: black;
+}
+
+.youtube i {
+  font-size: 5rem;
+  color: black;
+}
+
 /* Links */
 a {
 }
@@ -70,8 +80,15 @@ a {
 .btn {
   font-family: "Maitree";
   font-size: 2.25rem;
+}
+
+.btn__yellow {
   border-color: var(--yellow);
   color: var(--yellow);
+}
+
+.btn__black {
+  border-color: var(--black);
 }
 
 /* News */
@@ -122,7 +139,56 @@ a {
   display: inline-block;
 }
 
+/* Instagram */
+.insta__entry {
+  height: 31.25rem;
+  width: 31.25rem;
+  margin: 2rem 0 4rem 0;
+  display: flex;
+  gap: 10px;
+}
+
+.entry-1 {
+  background: url("./img/Instagram/ig_sample1.png");
+  margin-right: 1.5rem;
+}
+
+.entry-2 {
+  background: url("./img/Instagram/ig_sample2.png");
+}
+
+.entry-3 {
+  background: url("./img/Instagram/ig_sample3.png");
+  margin-left: 1.5rem;
+}
+
+/* Youtube */
+.iframe__youtube {
+  width: 74rem;
+  height: 24rem;
+  background: url("./img/instagram/yt_sample1.png");
+  margin: 2rem 0 4rem 0;
+}
+
 /* Media Queries */
+@media (max-width: 1280px) {
+  .news__content {
+    height: 24rem;
+  }
+
+  .news__img_1 {
+    height: 24rem;
+  }
+
+  .news__img_2 {
+    height: 24rem;
+  }
+
+  .news__img_3 {
+    height: 24rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .header {
     height: 80vh;
@@ -135,6 +201,22 @@ a {
 
   i {
     font-size: 2rem;
+  }
+
+  .news__content {
+    height: 18rem;
+  }
+
+  .news__img_1 {
+    height: 18rem;
+  }
+
+  .news__img_2 {
+    height: 18rem;
+  }
+
+  .news__img_3 {
+    height: 18rem;
   }
 }
 
