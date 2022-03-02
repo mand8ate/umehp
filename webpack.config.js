@@ -12,7 +12,7 @@ module.exports = {
   },
   plugins: [
     new CopyPlugin({
-      patterns: [{ from: "src/index.html", to: "index.html" }],
+      patterns: [{ from: "src/index.html", to: "index.html" }, { from: "src/about.html", to: "about.html"}],
     }),
   ],
   module: {
