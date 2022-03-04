@@ -7,6 +7,18 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="main-menu" id="main-menu">
+      <div class="main-menu__logo"></div>
+      <div class="main-menu__text">MENU</div>
+    </div>
+    <menu class="main-menu-anim" id="main-menu-anim">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contacts.html">Contacts</a></li>
+        <li id="menu-close">Close</li>
+      </ul>
+    </menu>
     <div class="about__content flex-col flex lg:flex-row">
       <div class="about__content__top block lg:hidden mb-4 sm:mb-6">
         <h1
@@ -14,9 +26,7 @@
         >
           About
         </h1>
-      <div
-        class="about__content__top__img bg-cover bg-center"
-      ></div>
+        <div class="about__content__top__img bg-cover bg-center"></div>
       </div>
       <div class="about__content__left lg:w-1/2 w-full">
         <h1
