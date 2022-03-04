@@ -4,6 +4,7 @@
 @import "css/components/sections.css";
 
 @import "css/pages/main.css";
+@import "css/pages/about.css";
 
 @tailwind base;
 @tailwind components;
