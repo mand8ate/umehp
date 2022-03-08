@@ -1,0 +1,137 @@
+/* Main Menu */
+.main-menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 50px;
+  left: 50px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.main-menu__logo {
+  position: relative;
+  display: block;
+  height: 100px;
+  width: 100px;
+  background: url("./img/icons/ume_icon_1.png");
+}
+
+.main-menu__text {
+  margin-top: 10px;
+  width: 100%;
+  color: var(--yellow);
+  font-family: "Maiandra";
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Menu Active */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(255, 255, 255, 0.5);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 100;
+}
+
+.menu-container {
+  z-index: 2;
+  display: flex;
+}
+
+.menu-left {
+  position: relative;
+  display: none;
+  justify-content: center;
+  padding: 15rem 10rem 0 10rem;
+  width: 33%;
+  height: 100vh;
+  background: var(--white);
+}
+
+.menu-exit {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 50px;
+  left: 50px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-exit__logo {
+  position: relative;
+  display: block;
+  height: 100px;
+  width: 100px;
+  background: url("./img/icons/ume_icon_red_1.png");
+}
+
+.menu-exit__text {
+  margin-top: 10px;
+  width: 100%;
+  color: var(--red);
+  font-family: "Maiandra";
+  font-size: 2rem;
+  text-align: center;
+}
+
+.menu-items {
+  font-family: "Maiandra";
+  font-size: 3.125rem;
+}
+
+.menu-items li {
+  display: flex;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.menu-items li:hover {
+  color: var(--light-grey);
+}
+
+.item-icon {
+  height: 3.125rem;
+  width: 3.125rem;
+  margin-right: 10px;
+  transition: 1s;
+}
+
+/* #menu-link-1:hover #item-icon-1 {
+  background: url("./img/icons/note.png") no-repeat center;
+}
+
+#menu-link-2:hover #item-icon-2 {
+  background: url("./img/icons/note.png") no-repeat center;
+}
+
+#menu-link-3:hover #item-icon-3 {
+  background: url("./img/icons/note.png") no-repeat center;
+}
+
+#menu-link-4:hover #item-icon-4 {
+  background: 
+} */
+
+.menu-items .active {
+  color: var(--light-grey);
+  cursor: default;
+  pointer-events: none;
+}
+
+.menu-right {
+  display: none;
+  position: relative;
+  width: 77%;
+  height: 100vh;
+  background: url("./img/bg_photo-menu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

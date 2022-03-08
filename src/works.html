@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="overlay" id="menu-overlay">
+      <div class="menu-container">
+        <div class="menu-left" id="menu-left">
+          <div class="menu-exit" id="menu-exit">
+            <div class="menu-exit__logo"></div>
+            <div class="menu-exit__text">CLOSE</div>
+          </div>
+
+          <div class="menu-items">
+            <ul>
+              <li class="menu-item">
+                <div class="item-icon" id="item-icon-1"></div>
+                <a href="./index.html">Home</a>
+              </li>
+              <li class="menu-item">
+                <div class="item-icon" id="item-icon-2"></div>
+                <a href="./about.html">About</a>
+              </li>
+              <li class="menu-item active">
+                <div class="item-icon" id="item-icon-3"></div>
+                <a href="./works.html">Works</a>
+              </li>
+              <li class="menu-item">
+                <div class="item-icon" id="item-icon-4"></div>
+                <a href="./contacts.html">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="menu-right" id="menu-right"></div>
+      </div>
+    </div>
+    <div class="main-menu" id="main-menu">
+      <div class="main-menu__logo"></div>
+      <div class="main-menu__text">MENU</div>
+    </div>
+
+    <footer
+      class="footer flex flex-col items-center justify-between xl:py-12 lg:py-10 md:py-8 sm:py-6"
+    >
+      <div class="flex flex-col items-center">
+        <div class="img-icon-2 bg-no-repeat bg-cover mb-14 mt-2 sm:mt-4"></div>
+        <h2
+          class="text-white lg:text-5xl md:text-4xl text-3xl mb-10 text-center"
+        >
+          Shigeru Umebayashi
+        </h2>
+        <div class="social flex w-full justify-around mb-10 items-center">
+          <i class="fab fa-facebook-f text-white"></i>
+          <i class="fab fa-twitter fa text-white"></i>
+          <i class="fab fa-instagram text-white"></i>
+          <i class="fa-brands fa-youtube text-white"></i>
+          <i class="fa-brands fa-bitcoin text-white"></i>
+        </div>
+      </div>
+      <div class="flex flex-col xl:my-10 lg:my-8 md:ly-6 sm:ly-4">
+        <div class="flex my-5 flex-col items-center lg:flex-row">
+          <a class="footer-info hover:text-white link" href="#"
+            >Privacy Policy</a
+          >
+          <a class="footer-info hover:text-white link" href="#"
+            >Terms and Conditions</a
+          >
+          <a class="footer-info hover:text-white link" href="#">Contact</a>
+          <a class="footer-info hover:text-white link" href="#">Credits</a>
+        </div>
+        <div class="flex mt-5 justify-around items-center mb-2">
+          <p class="footer-info" href="#">&#169; 2022, All Rights Reserved</p>
+          <p class="footer-info" href="#">Website by Giftbox-e</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./bundle.js"></script>
+  </body>
+</html>
