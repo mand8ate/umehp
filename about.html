@@ -7,18 +7,44 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="overlay" id="menu-overlay">
+      <div class="menu-container">
+        <div class="menu-left" id="menu-left">
+          <div class="menu-exit" id="menu-exit">
+            <div class="menu-exit__logo"></div>
+            <div class="menu-exit__text">CLOSE</div>
+          </div>
+
+          <div class="menu-items">
+            <ul>
+              <li class="menu-item">
+                <div class="item-icon" id="item-icon-1"></div>
+                <a href="./index.html">Home</a>
+              </li>
+              <li class="menu-item active">
+                <div class="item-icon" id="item-icon-2"></div>
+                <a href="./about.html">About</a>
+              </li>
+              <li class="menu-item">
+                <div class="item-icon" id="item-icon-3"></div>
+                <a href="./works.html">Works</a>
+              </li>
+              <li class="menu-item">
+                <div class="item-icon" id="item-icon-4"></div>
+                <a href="./contacts.html">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="menu-right" id="menu-right"></div>
+      </div>
+    </div>
     <div class="main-menu" id="main-menu">
       <div class="main-menu__logo"></div>
       <div class="main-menu__text">MENU</div>
     </div>
-    <menu class="main-menu-anim" id="main-menu-anim">
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./contacts.html">Contacts</a></li>
-        <li id="menu-close">Close</li>
-      </ul>
-    </menu>
+
     <div class="about__content flex-col flex lg:flex-row">
       <div class="about__content__top block lg:hidden mb-4 sm:mb-6">
         <h1
