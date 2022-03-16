@@ -1,0 +1,59 @@
+.header-contacts {
+	height: 60vh;
+}
+
+.header-contacts__background {
+	background: url("./img/bg-contacts-1.png");
+}
+
+.contacts {
+	font-family: "Maitree";
+}
+
+.contacts-main {
+	margin-bottom: 2rem;
+}
+
+.contacts-text-header {
+	color: var(--black);
+	font-family: inherit;
+}
+
+.contacts-text-main {
+	color: var(--grey-text);
+	font-family: inherit;
+}
+
+.contacts-h1 {
+	font-family: "Maitree";
+}
+
+.half {
+	margin-left: auto;
+}
+
+/* Media Queries */
+@media (max-width: 1280px) {
+	.header-contacts {
+		height: 50vh;
+	}
+  }
+  
+  @media (max-width: 1023px) {
+	.header-contacts {
+		height: 40vh;
+	}
+  }
+  
+  @media (max-width: 769px) {
+	.header-contacts {
+		height: 30vh;
+	}
+  }
+  
+  @media (max-width: 640px) {
+	.header-contacts {
+		height: 25vh;
+	}
+  }
+  
