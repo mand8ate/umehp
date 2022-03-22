@@ -1,0 +1,148 @@
+.works-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.modal {
+  display: none;
+}
+
+.modal.is-open {
+  display: block;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: var(--dark-grey);
+  margin: 0 auto 0 auto;
+  padding: 55px 60px 60px 55px;
+  border-radius: 15px;
+  z-index: 2;
+  box-shadow: 10px 10px 15px var(--black);
+  overflow-y: scroll;
+}
+
+.modal.is-open::-webkit-scrollbar {
+  display: none;
+}
+
+.works-icon {
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+  margin-right: -50px;
+  cursor: pointer;
+}
+
+.close-button-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 30px;
+  width: 30px;
+  background: url("./img/icons/close_button_wh.svg") no-repeat center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.modal-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.works-entry-card {
+  min-width: 14rem;
+  height: 22rem;
+  background: orange;
+  margin: 0 30px 30px 20px;
+}
+
+.works-modal-0 {
+  background: url("./img/works/modal/works-modal-0.png") center no-repeat;
+  height: 400px;
+  width: 250px;
+  background-size: cover;
+}
+
+.works-modal-1 {
+  background: url("./img/works/modal/works-modal-1.png") center no-repeat;
+  height: 400px;
+  width: 250px;
+  background-size: cover;
+}
+
+.works-modal-2 {
+  background: url("./img/works/modal/works-modal-2.png") center no-repeat;
+  height: 400px;
+  width: 250px;
+  background-size: cover;
+}
+
+.works-modal-3 {
+  background: url("./img/works/modal/works-modal-3.png") center no-repeat;
+  height: 400px;
+  width: 250px;
+  background-size: cover;
+}
+
+.works-modal-4 {
+  background: url("./img/works/modal/works-modal-4.png") center no-repeat;
+  height: 400px;
+  width: 250px;
+  background-size: cover;
+}
+
+.works-modal-4-5 {
+  background: url("./img/works/modal/works-modal-3.5.png") center no-repeat;
+  height: 400px;
+  width: 250px;
+  background-size: cover;
+}
+
+.works-modal-5 {
+  background: url("./img/works/modal/works-modal-5.png") center no-repeat;
+  height: 400px;
+  width: 250px;
+  background-size: cover;
+}
+
+.works-modal-6 {
+  background: url("./img/works/modal/works-modal-6.png") center no-repeat;
+  height: 400px;
+  width: 250px;
+  background-size: cover;
+}
+
+.works-modal-7 {
+  background: url("./img/works/modal/works-modal-7.png") center no-repeat;
+  height: 400px;
+  width: 250px;
+  background-size: cover;
+}
+
+.works-modal-8 {
+  background: url("./img/works/modal/works-modal-8.png") center no-repeat;
+  height: 400px;
+  width: 250px;
+  background-size: cover;
+}
+
+.works-modal-9 {
+  background: url("./img/works/modal/works-modal-1.png") center no-repeat;
+  height: 400px;
+  width: 250px;
+  background-size: cover;
+}
+
+.works-modal-10 {
+  background: url("./img/works/modal/works-modal-1.png") center no-repeat;
+  height: 400px;
+  width: 250px;
+  background-size: cover;
+}
