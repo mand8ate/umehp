@@ -16,7 +16,7 @@ var swiper = new Swiper(".swiper", {
   },
   spaceBetween: 10,
   speed: 400,
-  slidesPerView: 3,
+  slidesPerView: 1,
   loop: true,
   pagination: {
     el: ".swiper-pagination",
@@ -27,6 +27,14 @@ var swiper = new Swiper(".swiper", {
     prevEl: ".swiper-button-prev",
   },
   centeredSlides: true,
+  breakpoints: {
+    640: {
+      slidesPerView: 2
+    },
+    1400: {
+      slidesPerView: 3
+    }
+  }
 });
 
 // Deactivate slide title for non-active elements
