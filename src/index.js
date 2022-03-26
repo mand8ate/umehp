@@ -9,3 +9,4 @@ import "./index.css";
 
 // JS
 import "./js/main-menu.js";
+import "./js/menu-color-change.js";

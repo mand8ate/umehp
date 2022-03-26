@@ -9,6 +9,11 @@ module.exports = {
       current: "currentColor",
       "light-grey": "#E5EEE5",
       purple: "#7652C6",
+      container: {
+        margin: {
+          DEFAULT: "6rem",
+        },
+      },
     },
   },
   plugins: [],

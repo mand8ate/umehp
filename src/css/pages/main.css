@@ -22,6 +22,14 @@ body {
   background: url("img/bg-photo-1.png");
 }
 
+/* Container */
+.container {
+  max-width: 100rem !important;
+  margin: 0px auto !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+
 /* Footer */
 .footer {
   background-color: var(--dark-grey);
@@ -178,6 +186,18 @@ i {
 }
 
 /* Media Queries */
+@media (max-width: 1800px) {
+  .container {
+    max-width: 80rem !important;
+  }
+}
+
+@media (max-width: 1460px) {
+  .container {
+    max-width: 70rem !important;
+  }
+}
+
 @media (max-width: 1280px) {
   .news__content {
     height: 24rem;
@@ -204,6 +224,11 @@ i {
     height: 25rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
+  }
+
+  .header {
+    position: relative;
+    margin-top: 100px;
   }
 }
 

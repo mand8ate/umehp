@@ -1,4 +1,5 @@
 import Swiper, { EffectCoverflow, Navigation } from "swiper";
+
 require("swiper/css");
 require("swiper/css/navigation");
 require("swiper/css/pagination");
@@ -29,12 +30,12 @@ var swiper = new Swiper(".swiper", {
   centeredSlides: true,
   breakpoints: {
     640: {
-      slidesPerView: 2
+      slidesPerView: 2,
     },
     1400: {
-      slidesPerView: 3
-    }
-  }
+      slidesPerView: 3,
+    },
+  },
 });
 
 // Deactivate slide title for non-active elements
