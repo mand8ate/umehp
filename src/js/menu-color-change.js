@@ -31,5 +31,5 @@ try {
 
   headerObserver.observe(header);
 } catch (e) {
-  console.log("Not found, continue");
+  
 }

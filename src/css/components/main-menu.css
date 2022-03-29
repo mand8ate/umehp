@@ -1,4 +1,4 @@
-/* Main Menu */
+/* Main Menu 1*/
 .main-menu {
   position: fixed;
   display: flex;
@@ -28,10 +28,10 @@
 }
 
 .main-menu-social {
-position: fixed;
-top: 40px;
-right: 40px;
-justify-content: center;
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  justify-content: center;
 }
 
 .main-menu-social__content {
@@ -49,6 +49,43 @@ justify-content: center;
   font-family: "Maiandra";
   font-size: 1.5rem;
   text-align: center;
+}
+
+/* Main Menu 2 */
+.main-menu-2 {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  top: 40px;
+  left: 40px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.main-menu__logo-2 {
+  position: relative;
+  height: 50px;
+  width: 70px;
+}
+
+.main-meniu__logo-2__img {
+  width: 100%;
+  height: 100%;
+  background: url("./img/icons/ume_icon_red_1.png") center;
+  background-size: cover;
+}
+
+.main-menu__text-2 {
+  margin-top: 10px;
+  width: 100%;
+  color: var(--red);
+  font-family: "Maiandra";
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.icons-red {
+  color: var(--red);
 }
 
 /* Menu Active */
@@ -204,5 +241,9 @@ justify-content: center;
 
   .mobile-menu {
     display: block;
+  }
+
+  .main-menu-social {
+    display: none;
   }
 }
