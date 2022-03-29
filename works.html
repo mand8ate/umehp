@@ -40,34 +40,56 @@
         <div class="menu-right" id="menu-right"></div>
       </div>
     </div>
-    <div class="main-menu" id="main-menu">
-      <div class="main-menu__logo"></div>
-      <div class="main-menu__logo-red"></div>
-      <div class="main-menu__text">MENU</div>
+
+    <div class="main-menu-2" id="main-menu">
+      <div class="main-menu__logo-2">
+        <div class="main-meniu__logo-2__img"></div>
+      </div>
+      <div class="main-menu__text-2">MENU</div>
     </div>
 
-    <h1
-      class="contacts-h1 text-center lg:text-7xl md:text-5xl text-4xl xl:my-14 lg:my-12 mt-2 mb-2"
-    >
-      Works
-    </h1>
+    <div class="main-menu-social">
+      <div class="main-menu-social__content icons-red">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter fa"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-bitcoin"></i>
+      </div>
+    </div>
 
-    <!-- Carousel -->
-    <div class="container mx-auto works-container">
+    <div class="mobile-menu">
+      <div class="mobile-menu__content">
+        <div class="mobile-menu__logo">
+          <div class="mobile-menu__logo__img"></div>
+        </div>
+        <div class="mobile-menu__social">
+          social media items and stuff blabla
+        </div>
+        <div class="mobile-menu__menu">menumenumenu</div>
+      </div>
+    </div>
+
+    <div class="mobile-header-works">
+      <h1
+        class="contacts-h1 text-center lg:text-7xl md:text-5xl text-4xl xl:my-14 lg:my-12 mt-2 mb-2"
+      >
+        Works
+      </h1>
+    </div>
+
+    <div class="container mx-auto relative">
       <!-- Modal -->
-      <!-- [1] -->
       <div class="modal" id="modal-1" aria-hidden="true">
-        <!-- [2] -->
-        <div tabindex="-1" class="close-relative" data-micromodal-close>
-          <!-- [3] -->
-          <div class="close-absolute">
-            <div class="close-button-modal" data-micromodal-close></div>
-          </div>
+        <div tabindex="-1" data-micromodal-close>
+
+          <div class="close-button-modal" data-micromodal-close></div>
+
           <div role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
             <div class="modal-content">
               <div class="mx-auto px-2 my-1">
                 <div
-                  class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3"
+                  class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3"
                 >
                   <div
                     class="flex justify-center text-6xl border-1 border-gray-300 rounded-sm p-1 bg-gray-500 hover:bg-red-700"
@@ -147,6 +169,7 @@
           </div>
         </div>
       </div>
+      <!-- Modal end -->
 
       <div class="swiper">
         <!-- Additional required wrapper -->
