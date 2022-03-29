@@ -4,8 +4,10 @@ MicroModal.init({
   disableScroll: true,
 });
 
-const worksIcon = document.querySelector(".works-icon");
+try {
+  const worksIcon = document.querySelector(".works-icon");
 
-worksIcon.addEventListener("click", () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-});
+  worksIcon.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+} catch (e) {}

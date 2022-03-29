@@ -1,7 +1,7 @@
 try {
   const mainMenu = document.querySelector(".main-menu");
   const socialIcons = document.querySelector(".main-menu-social__content");
-  const header = document.querySelector(".header");
+  const header = document.querySelector(".header-color-change");
 
   const headerOptions = {
     root: null,
