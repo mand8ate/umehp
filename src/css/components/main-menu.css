@@ -68,11 +68,15 @@
   width: 70px;
 }
 
-.main-meniu__logo-2__img {
+.main-menu__logo-2__img {
   width: 100%;
   height: 100%;
   background: url("./img/icons/ume_icon_red_1.png") center;
   background-size: cover;
+}
+
+.fixed {
+  position: absolute !important;
 }
 
 .main-menu__text-2 {
@@ -200,6 +204,10 @@
   height: 100%;
   background: url("./img/icons/ume_icon_1.png") center;
   background-size: cover;
+}
+
+.mobile-menu__menu {
+  font-size: 2rem;
 }
 
 /* #menu-link-1:hover #item-icon-1 {
