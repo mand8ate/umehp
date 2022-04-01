@@ -1,7 +1,7 @@
 import MicroModal from "micromodal";
 
 MicroModal.init({
-  disableScroll: true,
+  disableScroll: false,
 });
 
 try {
