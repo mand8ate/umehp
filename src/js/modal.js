@@ -8,6 +8,6 @@ try {
   const worksIcon = document.querySelector(".works-icon");
 
   worksIcon.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 50, behavior: "smooth" });
   });
 } catch (e) {}

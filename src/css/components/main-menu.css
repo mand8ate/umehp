@@ -39,7 +39,7 @@
   flex-direction: column;
   align-items: center;
   color: var(--yellow);
-  gap: 10px;
+  gap: 20px;
 }
 
 .main-menu__text {
