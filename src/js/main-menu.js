@@ -1,4 +1,4 @@
-const menuButton = document.getElementById("main-menu");
+const menuButtons = Array.from(document.querySelectorAll("#main-menu"));
 const menuCloseButton = document.getElementById("menu-exit");
 const menuOverlay = document.getElementById("menu-overlay");
 const menuLeft = document.getElementById("menu-left");
@@ -8,18 +8,20 @@ const menuItems = document.querySelectorAll(".menu-item");
 
 import myImagePath from "../img/icons/note.png";
 
-menuButton.addEventListener("click", () => {
-  menuOverlay.style.display = "block";
+menuButtons.map((menuButton) => {
+  menuButton.addEventListener("click", () => {
+    menuOverlay.style.display = "block";
 
-  menuLeft.style.display = "flex";
-  menuRight.style.display = "block";
-});
+    menuLeft.style.display = "flex";
+    menuRight.style.display = "block";
+  });
 
-menuCloseButton.addEventListener("click", () => {
-  menuRight.style.display = "none";
-  menuLeft.style.display = "none";
+  menuCloseButton.addEventListener("click", () => {
+    menuRight.style.display = "none";
+    menuLeft.style.display = "none";
 
-  menuOverlay.style.display = "none";
+    menuOverlay.style.display = "none";
+  });
 });
 
 menuItems.forEach((item) => {
