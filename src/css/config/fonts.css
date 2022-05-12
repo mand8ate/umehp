@@ -7,3 +7,18 @@
   font-family: "Maiandra";
   src: url("./fonts/Maiandra-GD-regular.ttf");
 }
+
+@font-face {
+  font-family: "heebo";
+  src: url("./fonts/heebo.ttf");
+}
+
+@font-face {
+  font-family: "oswald";
+  src: url("./fonts/oswald.ttf");
+}
+
+@font-face {
+  font-family: "heebo-bold";
+  src: url("./fonts/heebo-bold.ttf");
+}

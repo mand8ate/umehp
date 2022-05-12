@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="icon" href="./favicon.png" type="image/png" />
+    <title>Contacts</title>
   </head>
   <body>
     <div class="overlay" id="menu-overlay">
       <div class="menu-container">
         <div class="menu-left" id="menu-left">
-          <div class="menu-exit" id="menu-exit">
-            <div class="menu-exit__logo"></div>
+          <div class="menu-exit exit-menu" id="menu-exit">
             <div class="menu-exit__text">CLOSE</div>
           </div>
 
@@ -29,6 +29,10 @@
                 <div class="item-icon" id="item-icon-3"></div>
                 <a href="./works.html">Works</a>
               </li>
+              <li class="menu-item">
+                <div class="item-icon" id="item-icon-4"></div>
+                <a href="./gallery.html">Gallery</a>
+              </li>
               <li class="menu-item active">
                 <div class="item-icon" id="item-icon-4"></div>
                 <a href="./contacts.html">Contacts</a>
@@ -37,33 +41,30 @@
           </div>
         </div>
 
-        <div class="menu-right" id="menu-right"></div>
+        <div class="menu-right" id="menu-right">
+          <div class="menu-right__img"></div>
+        </div>
       </div>
     </div>
 
-    <div class="main-menu" id="main-menu">
-      <div class="main-menu__logo"></div>
-      <div class="main-menu__logo-red"></div>
-      <div class="main-menu__text">MENU</div>
+    <div class="main-menu-contacts menu-open" id="main-menu">
+      <div class="main-menu__text-social">MENU</div>
     </div>
 
     <div class="main-menu-social">
-      <div class="main-menu-social__content">
+      <div class="main-menu-social__content-contacts">
         <i class="fab fa-instagram"></i>
         <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-bitcoin"></i>
       </div>
     </div>
 
     <div class="mobile-menu">
       <div class="mobile-menu__content">
-        <div class="mobile-menu__logo">
-          <div class="mobile-menu__logo__img"></div>
-        </div>
         <div class="mobile-menu__social">
-          social media items and stuff blabla
+          <i class="fab fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
         </div>
-        <div class="mobile-menu__menu">menumenumenu</div>
+        <div class="mobile-menu__menu menu-open" id="main-menu">Menu</div>
       </div>
     </div>
 
@@ -80,7 +81,7 @@
             Contacts
           </h1>
           <!-- Contact 1 -->
-          <div class="contacts-main">
+          <div class="contacts-main anim1">
             <h2
               class="lg:text-5xl md:text-4xl text-3xl mb-4 text-center md:text-left"
             >
@@ -112,7 +113,7 @@
           </div>
 
           <!-- contact 2 -->
-          <div class="contacts-main">
+          <div class="contacts-main anim2">
             <h2
               class="lg:text-5xl md:text-4xl text-3xl mb-4 text-center md:text-left"
             >
@@ -141,7 +142,7 @@
           </div>
 
           <!-- contact 3 -->
-          <div class="contacts-main">
+          <div class="contacts-main anim1">
             <h2
               class="lg:text-5xl md:text-4xl text-3xl mb-4 text-center md:text-left"
             >
@@ -223,7 +224,8 @@
             <div class="divider-horizontal"></div>
           </div>
 
-          <div class="contacts-main">
+          <!-- Contact 4 -->
+          <div class="contacts-main anim2">
             <h2
               class="lg:text-5xl md:text-4xl text-3xl mb-4 text-center md:text-left"
             >
@@ -251,6 +253,10 @@
           </div>
         </div>
       </section>
+
+      <div class="quote anim1">
+        <p>- Without haste but without rest -</p>
+      </div>
     </div>
 
     <footer
@@ -266,19 +272,13 @@
         <div class="social flex w-full justify-around mb-10 items-center">
           <i class="fab fa-instagram text-white"></i>
           <i class="fa-brands fa-youtube text-white"></i>
-          <i class="fa-brands fa-bitcoin text-white"></i>
         </div>
       </div>
       <div class="flex flex-col xl:my-10 lg:my-8 md:ly-6 sm:ly-4">
-        <div class="flex my-5 flex-col items-center lg:flex-row">
-          <a class="footer-info hover:text-white link" href="#"
-            >Privacy Policy</a
+        <div class="flex my-5 flex-col items-center self-center lg:flex-row">
+          <a class="footer-info hover:text-white link" href="./contacts.html"
+            >Contact</a
           >
-          <a class="footer-info hover:text-white link" href="#"
-            >Terms and Conditions</a
-          >
-          <a class="footer-info hover:text-white link" href="#">Contact</a>
-          <a class="footer-info hover:text-white link" href="#">Credits</a>
         </div>
         <div class="flex mt-5 justify-around items-center mb-2">
           <p class="footer-info" href="#">&#169; 2022, All Rights Reserved</p>

@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicon.png" type="image/png" />
     <title>Shigeru Umebayashi / Producer and Composer</title>
   </head>
   <body>
     <div class="overlay" id="menu-overlay">
       <div class="menu-container">
         <div class="menu-left" id="menu-left">
-          <div class="menu-exit" id="menu-exit">
-            <div class="menu-exit__logo"></div>
+          <div class="menu-exit exit-menu" id="menu-exit">
             <div class="menu-exit__text">CLOSE</div>
           </div>
 
@@ -31,19 +31,23 @@
               </li>
               <li class="menu-item">
                 <div class="item-icon" id="item-icon-4"></div>
+                <a href="./gallery.html">Gallery</a>
+              </li>
+              <li class="menu-item">
+                <div class="item-icon" id="item-icon-4"></div>
                 <a href="./contacts.html">Contacts</a>
               </li>
             </ul>
           </div>
         </div>
 
-        <div class="menu-right" id="menu-right"></div>
+        <div class="menu-right" id="menu-right">
+          <div class="menu-right__img"></div>
+        </div>
       </div>
     </div>
 
-    <div class="main-menu" id="main-menu">
-      <div class="main-menu__logo"></div>
-      <div class="main-menu__logo-red"></div>
+    <div class="main-menu menu-open" id="main-menu">
       <div class="main-menu__text">MENU</div>
     </div>
 
@@ -51,31 +55,29 @@
       <div class="main-menu-social__content">
         <i class="fab fa-instagram"></i>
         <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-bitcoin"></i>
       </div>
     </div>
 
     <div class="mobile-menu">
       <div class="mobile-menu__content">
-        <div class="mobile-menu__logo">
-          <div class="mobile-menu__logo__img"></div>
-        </div>
         <div class="mobile-menu__social">
-          social media items and stuff blabla
+          <i class="fab fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
         </div>
-        <div class="mobile-menu__menu">menumenumenu</div>
+        <div class="mobile-menu__menu menu-open" id="main-menu">Menu</div>
       </div>
     </div>
 
     <header class="header mobile-header header-color-change">
-      <div
-        class="header__background h-full bg-cover bg-center flex justify-center items-end"
-      >
-        <button
-          class="btn btn__yellow bg-transparent font-semibold py-1 px-8 border mb-6 xl:mb-12 lg:mb-10 md:mb-8"
-        >
-          <a href="./about.html">More Info</a>
-        </button>
+      <div class="header__background-wrapper">
+        <div class="header__background__img"></div>
+        <div class="header__background__text">
+          <div class="header__background__text__1st"></div>
+          <div class="header__background__text__2nd">
+            <h1>A Long Walk Home</h1>
+          </div>
+          <div class="header__background__text__3rd"><h2>EX Limited</h2></div>
+        </div>
       </div>
     </header>
 
@@ -83,14 +85,14 @@
       <section class="news">
         <div class="flex flex-col">
           <h1
-            class="text-center lg:text-7xl md:text-5xl text-4xl xl:my-14 lg:my-12 mt-0 mb-2"
+            class="text-center lg:text-6xl md:text-5xl text-4xl xl:my-14 lg:my-12 mt-3 mb-2"
           >
             News
           </h1>
           <div class="flex sm:flex-row flex-col justify-around mb-10">
-            <div
-              class="news__img_1 bg-no-repeat bg-center bg-cover basis-6/12"
-            ></div>
+            <div class="news-img anim1">
+              <div class="news__img_1"></div>
+            </div>
             <div class="news__content right-sided sm:basis-6/12 basis-full">
               <div
                 class="news__content__date xl:mb-6 lg:mb-4 md:mb-2 xl:text-2xl lg:text-xl md:text-lg"
@@ -106,10 +108,7 @@
                 tenetur aliquam id odio! Est.
               </div>
               <div class="news__content__more text-2xl">
-                <a href=""
-                  >Read
-                  More</a
-                >
+                <a href="">Read More</a>
               </div>
             </div>
           </div>
@@ -130,21 +129,18 @@
                 tenetur aliquam id odio! Est.
               </div>
               <div class="news__content__more text-2xl">
-                <a href=""
-                  >Read
-                  More</a
-                >
+                <a href="">Read More</a>
               </div>
             </div>
-            <div
-              class="news__img_2 bg-no-repeat bg-center bg-cover basis-6/12"
-            ></div>
+            <div class="news-img img-right anim2">
+              <div class="news__img_2"></div>
+            </div>
           </div>
 
           <div class="flex sm:flex-row flex-col justify-around mb-10">
-            <div
-              class="news__img_3 bg-no-repeat bg-center bg-cover basis-6/12"
-            ></div>
+            <div class="news-img anim1">
+              <div class="news__img_3"></div>
+            </div>
             <div class="news__content right-sided basis-6/12">
               <div
                 class="news__content__date xl:mb-6 lg:mb-4 md:mb-2 xl:text-2xl lg:text-xl md:text-lg"
@@ -160,10 +156,7 @@
                 tenetur aliquam id odio! Est.
               </div>
               <div class="news__content__more text-2xl">
-                <a href=""
-                  >Read
-                  More</a
-                >
+                <a href="">Read More</a>
               </div>
             </div>
           </div>
@@ -174,16 +167,81 @@
         <div class="divider"></div>
       </section>
 
+      <section class="diary flex flex-col items-center mb-10">
+        <div class="flex items-center xl:mt-12 xl:mt-10 lg:mt-4 mt-2 mb-2">
+          <h1 class="text-center lg:text-6xl md:text-5xl text-4xl">Diary</h1>
+        </div>
+        <div class="diary-input anim2">
+          <div class="diary-entry newest">
+            <p class="date">20202</p>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto,
+              aut consequuntur, eos id numquam facere reprehenderit facilis
+              magnam sunt expedita aliquam placeat commodi in aliquid atque
+              magni architecto non maxime excepturi nobis accusamus qui? Aut
+              exercitationem commodi dicta pariatur, eum maxime, quidem
+              molestiae, fugiat quo explicabo molestias possimus nam sed?
+            </p>
+          </div>
+          <div class="diary-entry">
+            <p class="date">20202</p>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto,
+              aut consequuntur, eos id numquam facere reprehenderit facilis
+              magnam sunt expedita aliquam placeat commodi in aliquid atque
+              magni architecto non maxime excepturi nobis accusamus qui? Aut
+              exercitationem commodi dicta pariatur, eum maxime, quidem
+              molestiae, fugiat quo explicabo molestias possimus nam sed?
+            </p>
+          </div>
+          <div class="diary-entry">
+            <p class="date">20202</p>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto,
+              aut consequuntur, eos id numquam facere reprehenderit facilis
+              magnam sunt expedita aliquam placeat commodi in aliquid atque
+              magni architecto non maxime excepturi nobis accusamus qui? Aut
+              exercitationem commodi dicta pariatur, eum maxime, quidem
+              molestiae, fugiat quo explicabo molestias possimus nam sed?
+            </p>
+          </div>
+          <div class="diary-entry">
+            <p class="date">20202</p>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto,
+              aut consequuntur, eos id numquam facere reprehenderit facilis
+              magnam sunt expedita aliquam placeat commodi in aliquid atque
+              magni architecto non maxime excepturi nobis accusamus qui? Aut
+              exercitationem commodi dicta pariatur, eum maxime, quidem
+              molestiae, fugiat quo explicabo molestias possimus nam sed?
+            </p>
+          </div>
+          <div class="diary-entry">
+            <p class="date">20202</p>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto,
+              aut consequuntur, eos id numquam facere reprehenderit facilis
+              magnam sunt expedita aliquam placeat commodi in aliquid atque
+              magni architecto non maxime excepturi nobis accusamus qui? Aut
+              exercitationem commodi dicta pariatur, eum maxime, quidem
+              molestiae, fugiat quo explicabo molestias possimus nam sed?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="intersection">
+        <div class="divider"></div>
+      </section>
+
       <section class="insta flex flex-col items-center mb-10">
         <div class="flex items-center xl:mt-12 xl:mt-10 lg:mt-4 mt-2 mb-2">
-          <i class="fab fa-instagram text-white"></i>
-          <h1 class="text-center lg:text-7xl md:text-5xl text-4xl">
+          <i class="fab fa-instagram text-white mr-2"></i>
+          <h1 class="text-center lg:text-6xl md:text-5xl text-4xl">
             Instagram
           </h1>
         </div>
-        <div
-          class="vertical flex flex-row w-full overflow-auto 2xl:overflow-hidden"
-        >
+        <div class="vertical flex flex-row w-full overflow-auto anim1">
           <div
             class="insta__entry entry-1 bg-center bg-cover flex-shrink-0"
           ></div>
@@ -209,10 +267,12 @@
 
       <section class="youtube flex flex-col items-center mb-20">
         <div class="flex items-center xl:mt-12 xl:mt-10 lg:mt-4 mt-2 mb-8">
-          <i class="fa-brands fa-youtube text-white"></i>
-          <h1 class="text-center lg:text-7xl md:text-5xl text-4xl">Youtube</h1>
+          <i class="fa-brands fa-youtube text-white mr-2"></i>
+          <h1 class="text-center lg:text-6xl md:text-5xl text-4xl">Youtube</h1>
         </div>
-        <div class="iframe__youtube bg-center bg-contain bg-no-repeat"></div>
+        <div
+          class="iframe__youtube bg-center bg-contain bg-no-repeat anim2"
+        ></div>
         <div>
           <button
             class="btn btn__black bg-transparent font-semibold py-1 px-8 border py-1 px-8 border xl:mt-24 lg:mt-12 mt-10 mb-2"
@@ -236,19 +296,13 @@
         <div class="social flex w-full justify-around mb-10 items-center">
           <i class="fab fa-instagram text-white"></i>
           <i class="fa-brands fa-youtube text-white"></i>
-          <i class="fa-brands fa-bitcoin text-white"></i>
         </div>
       </div>
       <div class="flex flex-col xl:my-10 lg:my-8 md:ly-6 sm:ly-4">
-        <div class="flex my-5 flex-col items-center lg:flex-row">
-          <a class="footer-info hover:text-white link" href="#"
-            >Privacy Policy</a
+        <div class="flex my-5 flex-col items-center self-center lg:flex-row">
+          <a class="footer-info hover:text-white link" href="./contacts.html"
+            >Contact</a
           >
-          <a class="footer-info hover:text-white link" href="#"
-            >Terms and Conditions</a
-          >
-          <a class="footer-info hover:text-white link" href="#">Contact</a>
-          <a class="footer-info hover:text-white link" href="#">Credits</a>
         </div>
         <div class="flex mt-5 justify-around items-center mb-2">
           <p class="footer-info" href="#">&#169; 2022, All Rights Reserved</p>

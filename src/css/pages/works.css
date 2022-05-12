@@ -5,15 +5,15 @@
 .modal.is-open {
   position: absolute;
   display: block;
-  top: 0;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, 0);
-  height: 110%;
-  width: 110%;
+  height: 90vh;
+  width: 90vw;
   background-color: var(--dark-grey);
   padding: 55px 60px 60px 55px;
   border-radius: 15px;
-  z-index: 3;
+  z-index: 1000;
   box-shadow: 10px 10px 15px var(--black);
   overflow: scroll;
 }
@@ -23,12 +23,28 @@
 }
 
 .works-icon {
-  position: relative;
-  height: 75px;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 75px;
-  margin: -30px 10px 20px auto;
+  height: 75px;
+  margin-top: -10px;
   cursor: pointer;
-  z-index: 1;
+}
+
+.works-icon-text {
+  margin-top: 5px;
+  font-size: 1.5rem;
+  color: var(--dark-grey);
+  font-family: "heebo";
+}
+
+.works-icon-svg {
+  width: 50px;
+  height: 50px;
 }
 
 .close-button-modal {
@@ -61,72 +77,138 @@
 }
 
 .works-modal-0 {
-  background: url("./img/works/modal/works-modal-0.png") center no-repeat;
+  background: url("./img/works/modal/works-modal-0.jpg") center no-repeat;
   background-size: contain;
 }
 
 .works-modal-1 {
-  background: url("./img/works/modal/works-modal-1.png") center no-repeat;
+  background: url("./img/works/modal/works-modal-1.jpg") center no-repeat;
   background-size: contain;
 }
 
 .works-modal-2 {
-  background: url("./img/works/modal/works-modal-2.png") center no-repeat;
+  background: url("./img/works/modal/works-modal-2.jpg") center no-repeat;
   background-size: contain;
 }
 
 .works-modal-3 {
-  background: url("./img/works/modal/works-modal-3.png") center no-repeat;
-    background-size: contain;
+  background: url("./img/works/modal/works-modal-3.jpg") center no-repeat;
+  background-size: contain;
 }
 
 .works-modal-4 {
-  background: url("./img/works/modal/works-modal-4.png") center no-repeat;
-    background-size: contain;
-}
-
-.works-modal-4-5 {
-  background: url("./img/works/modal/works-modal-3.5.png") center no-repeat;
-    background-size: contain;
+  background: url("./img/works/modal/works-modal-4.jpg") center no-repeat;
+  background-size: contain;
 }
 
 .works-modal-5 {
-  background: url("./img/works/modal/works-modal-5.png") center no-repeat;
-    background-size: contain;
+  background: url("./img/works/modal/works-modal-5.jpg") center no-repeat;
+  background-size: contain;
 }
 
 .works-modal-6 {
-  background: url("./img/works/modal/works-modal-6.png") center no-repeat;
-    background-size: contain;
+  background: url("./img/works/modal/works-modal-6.jpg") center no-repeat;
+  background-size: contain;
 }
 
 .works-modal-7 {
-  background: url("./img/works/modal/works-modal-7.png") center no-repeat;
-    background-size: contain;
+  background: url("./img/works/modal/works-modal-7.jpg") center no-repeat;
+  background-size: contain;
 }
 
 .works-modal-8 {
-  background: url("./img/works/modal/works-modal-8.png") center no-repeat;
-    background-size: contain;
+  background: url("./img/works/modal/works-modal-8.jpg") center no-repeat;
+  background-size: contain;
 }
 
 .works-modal-9 {
-  background: url("./img/works/modal/works-modal-1.png") center no-repeat;
-    background-size: contain;
+  background: url("./img/works/modal/works-modal-9.jpg") center no-repeat;
+  background-size: contain;
 }
 
 .works-modal-10 {
-  background: url("./img/works/modal/works-modal-1.png") center no-repeat;
-    background-size: contain;
+  background: url("./img/works/modal/works-modal-10.jpg") center no-repeat;
+  background-size: contain;
+}
+
+.works-modal-10-new {
+  background: url("./img/works/modal/works-modal-10-new.jpg") center no-repeat;
+  background-size: contain;
+}
+
+.works-modal-11 {
+  background: url("./img/works/modal/works-modal-11.jpg") center no-repeat;
+  background-size: contain;
+}
+
+.works-modal-12 {
+  background: url("./img/works/modal/works-modal-12.jpg") center no-repeat;
+  background-size: contain;
+}
+
+.works-modal-13 {
+  background: url("./img/works/modal/works-modal-13.jpg") center no-repeat;
+  background-size: contain;
+}
+
+.works-modal-14 {
+  background: url("./img/works/modal/works-modal-14.jpg") center no-repeat;
+  background-size: contain;
+}
+
+.works-modal-15 {
+  background: url("./img/works/modal/works-modal-15.png") center no-repeat;
+  background-size: contain;
+}
+
+.works-modal-16 {
+  background: url("./img/works/modal/works-modal-16.jpg") center no-repeat;
+  background-size: contain;
+}
+
+.works-modal-17 {
+  background: url("./img/works/modal/works-modal-17.jpg") center no-repeat;
+  background-size: contain;
+}
+
+.works-modal-18 {
+  background: url("./img/works/modal/works-modal-18.jpg") center no-repeat;
+  background-size: contain;
+}
+
+.works-modal-19 {
+  background: url("./img/works/modal/works-modal-19.jpg") center no-repeat;
+  background-size: contain;
+}
+
+.works-modal-20 {
+  background: url("./img/works/modal/works-modal-20.jpg") center no-repeat;
+  background-size: contain;
+}
+
+.works-modal-21 {
+  background: url("./img/works/modal/works-modal-21.jpg") center no-repeat;
+  background-size: contain;
+}
+
+.works-modal-22 {
+  background: url("./img/works/modal/works-modal-22.jpg") center no-repeat;
+  background-size: contain;
+}
+
+.works-modal-23 {
+  background: url("./img/works/modal/works-modal-23.jpg") center no-repeat;
+  background-size: contain;
+}
+
+.works-modal-24 {
+  background: url("./img/works/modal/works-modal-24.jpg") center no-repeat;
+  background-size: contain;
 }
 
 @media (max-width: 1280px) {
-  .modal.is-open {
-    width: 95%;
-  }
-
   .gallery {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }
 
@@ -137,30 +219,47 @@
   }
 
   .modal.is-open {
-    width: 90%;
     padding: 25px 40px 40px 35px;
   }
 
-  .gallery {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  .gallery-svg {
+    width: 40px;
+    height: 40px;
   }
 }
 
 @media (max-width: 768px) {
-  .modal.is-open {
-    height: 120%;
-  }
-
-  .works-icon {
-    height: 40px;
-    width: 40px;
-  }
-
   .swiper {
     margin-bottom: 10px !important;
   }
 
+  .works-icon {
+    bottom: 5px;
+    right: 5px;
+  }
+
+  .works-icon-svg {
+    width: 35px;
+    height: 35px;
+  }
+
+  .works-icon-text {
+    font-size: 1rem;
+  }
+
   .gallery {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 500px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
+
+@media (max-width: 400px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   }
 }

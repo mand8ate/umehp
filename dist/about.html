@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="icon" href="./favicon.png" type="image/png"/>
+    <title>About Ume</title>
   </head>
   <body>
     <div class="overlay" id="menu-overlay">
       <div class="menu-container">
         <div class="menu-left" id="menu-left">
-          <div class="menu-exit" id="menu-exit">
-            <div class="menu-exit__logo"></div>
+          <div class="menu-exit exit-menu" id="menu-exit">
             <div class="menu-exit__text">CLOSE</div>
           </div>
 
@@ -31,44 +31,38 @@
               </li>
               <li class="menu-item">
                 <div class="item-icon" id="item-icon-4"></div>
+                <a href="./gallery.html">Gallery</a>
+              </li>
+              <li class="menu-item">
+                <div class="item-icon" id="item-icon-4"></div>
                 <a href="./contacts.html">Contacts</a>
               </li>
             </ul>
           </div>
         </div>
 
-        <div class="menu-right" id="menu-right"></div>
+        <div class="menu-right" id="menu-right"><div class="menu-right__img"></div></div>
       </div>
     </div>
 
-    <div class="main-menu-2 fixed" id="main-menu">
-      <div class="main-menu__logo-2">
-        <div class="main-menu__logo-2__img"></div>
-      </div>
+    <div class="main-menu-2 fixed menu-open" id="main-menu">
       <div class="main-menu__text-2">MENU</div>
     </div>
 
     <div class="main-menu-social">
-      <div class="main-menu-social__content">
+      <div class="main-menu-social__content yellow">
         <i class="fab fa-instagram"></i>
         <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-bitcoin"></i>
       </div>
     </div>
 
     <div class="mobile-menu">
       <div class="mobile-menu__content">
-        <div class="mobile-menu__logo">
-          <div class="mobile-menu__logo__img"></div>
-        </div>
         <div class="mobile-menu__social">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter fa"></i>
             <i class="fab fa-instagram"></i>
             <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-bitcoin"></i>
         </div>
-        <div class="mobile-menu__menu" id="main-menu">Menu</div>
+        <div class="mobile-menu__menu manu-open" id="main-menu">Menu</div>
       </div>
     </div>
 
@@ -81,7 +75,7 @@
         </h1>
         <div class="about__content__top__img bg-cover bg-center"></div>
       </div>
-      <div class="about__content__left lg:w-1/2 w-full">
+      <div class="about__content__left lg:w-1/2 w-full anim2">
         <h1
           class="text-center lg:text-7xl md:text-5xl text-4xl 2xl:my-14 xl:my-10 lg:my-8 mt-2 mb-4 hidden lg:block"
         >
@@ -130,7 +124,7 @@
         </div>
       </div>
       <div
-        class="about__content__right bg-cover bg-top 2xl:bg-center lg:w-1/2 lg:block hidden"
+        class="about__content__right bg-cover bg-top 2xl:bg-center lg:w-1/2 lg:block hidden anim1"
       ></div>
     </div>
 
@@ -147,19 +141,13 @@
         <div class="social flex w-full justify-around mb-10 items-center">
           <i class="fab fa-instagram text-white"></i>
           <i class="fa-brands fa-youtube text-white"></i>
-          <i class="fa-brands fa-bitcoin text-white"></i>
         </div>
       </div>
       <div class="flex flex-col xl:my-10 lg:my-8 md:ly-6 sm:ly-4">
-        <div class="flex my-5 flex-col items-center lg:flex-row">
-          <a class="footer-info hover:text-white link" href="#"
-            >Privacy Policy</a
+        <div class="flex my-5 flex-col items-center self-center lg:flex-row">
+          <a class="footer-info hover:text-white link" href="./contacts.html"
+            >Contact</a
           >
-          <a class="footer-info hover:text-white link" href="#"
-            >Terms and Conditions</a
-          >
-          <a class="footer-info hover:text-white link" href="#">Contact</a>
-          <a class="footer-info hover:text-white link" href="#">Credits</a>
         </div>
         <div class="flex mt-5 justify-around items-center mb-2">
           <p class="footer-info" href="#">&#169; 2022, All Rights Reserved</p>
