@@ -6,6 +6,7 @@ require("./js/gallery.js");
 
 // CSS
 import "./index.css";
+import "./loader.css";
 
 // JS
 import "./js/main-menu.js";

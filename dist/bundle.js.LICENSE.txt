@@ -1,0 +1,29 @@
+/*!
+	 * ScrollTrigger 3.9.1
+	 * https://greensock.com
+	 *
+	 * @license Copyright 2008-2021, GreenSock. All rights reserved.
+	 * Subject to the terms at https://greensock.com/standard-license or for
+	 * Club GreenSock members, the agreement issued with that membership.
+	 * @author: Jack Doyle, jack@greensock.com
+	*/
+
+/*!
+ * GSAP 3.9.1
+ * https://greensock.com
+ *
+ * @license Copyright 2008-2021, GreenSock. All rights reserved.
+ * Subject to the terms at https://greensock.com/standard-license or for
+ * Club GreenSock members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
+ * ImgPreviewer v2.0.6
+ * https://github.com/yue1123/img-previewer
+ *
+ * Copyright 2021-present dh
+ * Released under the MIT license
+ *
+ * Date: 2022-03-16T13:41:44.039Z
+ */

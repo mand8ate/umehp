@@ -3,7 +3,7 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.js",
-  mode: "development",
+  mode: "production",
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
@@ -20,6 +20,8 @@ module.exports = {
         { from: "src/gallery.html", to: "gallery.html" },
         { from: "src/img/gallery", to: "gallery" },
         { from: "src/img/icons/ume_icon_red_1.png", to: "favicon.png" },
+        { from: "src/loader.js", to: "loader.js" },
+        { from: "src/loader.css", to: "loader.css" },
       ],
     }),
   ],

@@ -63,26 +63,26 @@ try {
   // });
 
   // Menu Animation
-} catch (e) {
-}
+} catch (e) {}
 
 try {
-  const menuButton = document.querySelector(".menu-open");
+  const menuButton = Array.from(document.querySelectorAll(".menu-open"));
   const closeButton = document.querySelector(".exit-menu");
 
   const menuTl = gsap.timeline({});
   menuTl.paused(true);
 
   menuTl.to(".overlay", { display: "block", opacity: 1 });
-  menuTl.to(".menu-left", { opacity: 1, width: "33%", x: 0 });
-  menuTl.to(".menu-right", { opacity: 1, width: "77%", x: 0 }, "-=.5");
+  menuTl.from(".menu-left", { opacity: 0, x: -1000 });
+  menuTl.from(".menu-right", { opacity: 0, x: 2000 }, "-=.5");
 
-  menuButton.addEventListener("click", () => {
-    menuTl.play();
+  menuButton.forEach((button) => {
+    button.addEventListener("click", () => {
+      menuTl.play();
+    });
   });
 
   closeButton.addEventListener("click", () => {
     menuTl.reverse(0.8);
   });
-} catch (e) {
-}
+} catch (e) {}
