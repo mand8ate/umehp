@@ -1,0 +1,63 @@
+.flex-insta {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 490px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.flex-insta-wrapper {
+  overflow-x: auto;
+  display: flex;
+  align-items: center;
+}
+
+.insta-entry {
+  height: 100%;
+  width: 480px;
+  margin-right: 10px;
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+
+.entry-1 {
+  width: 100%;
+  height: 100%;
+  background: url("./img/Instagram/ig_sample1.png") no-repeat;
+  background-size: cover;
+}
+
+.entry-2 {
+  width: 100%;
+  height: 100%;
+  background: url("./img/Instagram/ig_sample2.png") no-repeat;
+  background-size: cover;
+}
+
+.entry-3 {
+  width: 100%;
+  height: 100%;
+  background: url("./img/Instagram/ig_sample3.png") no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 1800px) {
+  .flex-insta {
+    height: 380px;
+  }
+
+  .insta-entry {
+    width: 380px;
+  }
+}
+
+@media (max-width: 1460px) {
+  .flex-insta {
+    height: 320px;
+  }
+
+  .insta-entry {
+    width: 320px;
+  }
+}
