@@ -217,6 +217,15 @@
 }
 
 @media (max-width: 1024px) {
+  .mobile-header-works {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .footer-works {
+    margin-top: 6rem;
+  }
+
   .works-icon {
     height: 50px;
     width: 50px;
