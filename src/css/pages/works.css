@@ -130,6 +130,11 @@
   background-size: contain;
 }
 
+.works-modal-9-new {
+  background: url("./img/works/modal/works-modal-9-new.jpg") center no-repeat;
+  background-size: contain;
+}
+
 .works-modal-10 {
   background: url("./img/works/modal/works-modal-10.jpg") center no-repeat;
   background-size: contain;
