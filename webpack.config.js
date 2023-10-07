@@ -22,8 +22,15 @@ module.exports = {
         { from: "src/img/icons/ume_icon_red_1.png", to: "favicon.png" },
         { from: "src/loader.js", to: "loader.js" },
         { from: "src/loader.css", to: "loader.css" },
-        { from: "src/files/athens_program.pdf", to: "files/athens_program.pdf" },
-        { from: "src/files/athens_brochure.pdf", to: "files/athens_brochure.pdf" },
+        {
+          from: "src/files/athens_program.pdf",
+          to: "files/athens_program.pdf",
+        },
+        {
+          from: "src/files/athens_brochure.pdf",
+          to: "files/athens_brochure.pdf",
+        },
+        { from: ".htaccess", to: ".htaccess" },
       ],
     }),
   ],

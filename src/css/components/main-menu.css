@@ -89,6 +89,7 @@
 .main-menu-mobile {
   display: none;
   position: fixed;
+  cursor: pointer;
   top: 20px;
   right: 20px;
   width: 50px;
